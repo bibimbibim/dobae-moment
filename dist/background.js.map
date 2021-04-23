@@ -1,0 +1,1 @@
+{"version":3,"sources":["background.js"],"names":["chrome","runtime","onInstalled","addListener","console","log"],"mappings":";AAAAA,OAAOC,QAAQC,YAAYC,YAAY,WACnCC,QAAQC,IAAI","file":"background.js","sourceRoot":"../src","sourcesContent":["chrome.runtime.onInstalled.addListener(() => {\n    console.log('[background] chrome.runtime.onInstalled initialize');\n});"]}

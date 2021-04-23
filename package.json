@@ -1,0 +1,23 @@
+{
+  "name": "dobae-moment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/background.js src/popup.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibimbibim/dobae-moment.git"
+  },
+  "author": "bibimbibim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibimbibim/dobae-moment/issues"
+  },
+  "homepage": "https://github.com/bibimbibim/dobae-moment#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  }
+}
